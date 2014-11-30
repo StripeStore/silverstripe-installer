@@ -1,3 +1,9 @@
+# StripeStore Installer
+
+StripeStore installer is fork from the original SilverStripe installer.
+
+Required modules are pull with git submodules.
+
 ## Overview
 
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Requires additional modules to function:
