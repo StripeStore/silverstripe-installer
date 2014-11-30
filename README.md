@@ -4,14 +4,14 @@ StripeStore installer is a fork from the original SilverStripe installer, implem
 
 ## Overview
 
-StripeStore is composed of multiple SilverStripe modules managed, codewise, as `git submodules`. 
-
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Requires additional modules to function:
 
  * [`framework`](http://github.com/stripestore/silverstripe-framework): Module including the base framework
  * [`cms`](http://github.com/stripesotre/silverstripe-cms): Module including a Content Management System
 
 ## Installation ##
+
+### Development
 
 
 
