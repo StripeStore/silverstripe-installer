@@ -13,3 +13,6 @@
 [submodule "swipestripe-category"]
 	path = swipestripe-category
 	url = https://github.com/StripeStore/silverstripe-swipestripe-category.git
+[submodule "themes/stripestore-demo-theme"]
+	path = themes/stripestore-demo-theme
+	url = https://github.com/StripeStore/stripestore-demo-theme.git
