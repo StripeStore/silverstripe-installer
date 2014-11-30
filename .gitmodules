@@ -4,3 +4,12 @@
 [submodule "framework"]
 	path = framework
 	url = https://github.com/StripeStore/silverstripe-framework.git
+[submodule "payments"]
+	path = payments
+	url = https://github.com/StripeStore/silverstripe-payment.git
+[submodule "swipestripe"]
+	path = swipestripe
+	url = https://github.com/swipestripe/silverstripe-swipestripe.git
+[submodule "swipestripe-category"]
+	path = swipestripe-category
+	url = https://github.com/StripeStore/silverstripe-swipestripe-category.git
