@@ -9,12 +9,18 @@ The StripeStore Product is composed by:
  * multiple (SilverStripe modules) git submodules
 
 To build your development enviroment you will need to:
- 1 Clone the installer project with:
+
+ 1. Clone the installer project with:
+    
     git clone https://github.com/StripeStore/silverstripe-installer.git
- 2 Let git clone the submodules with:
+ 
+ 2. Let git clone the submodules with:
+    
     git submodule init
     git submodule sync
- 3 Inform git to not track changes on installation specific files with:
+ 
+ 3. Inform git to not track changes on installation specific files with:
+    
     git update-index --assume-unchanged .htaccess assets/.htaccess assets/Uploads/SilverStripeLogo.png assets/web.config install.php mysite/_config.php
 
 Note:
