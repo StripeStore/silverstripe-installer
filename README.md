@@ -17,7 +17,7 @@ To build your development enviroment you will need to:
  2. Let git clone the submodules with:
     
         git submodule init
-        git submodule sync
+        git submodule update
  
  3. Inform git to not track changes on installation specific files with:
 
