@@ -23,24 +23,23 @@ To build your development enviroment you will need to:
 
         git update-index --assume-unchanged .htaccess assets/.htaccess assets/Uploads/SilverStripeLogo.png assets/web.config install.php mysite/_config.php
 
-Note:
-Changes made by the installation process to the installation files should be ignored and not pushed to the remote repository.
-This is why we mark some files with the --assume-unchanged flag.
-However, if you intend to update the installer remote repository you should either not execute step 3 or remove the --assume-unchanged flag from the files. The folowing commands should be helpfull:
+#### Note:
 
-List files marked as --assume-unchanged:
+Changes made by the installation process to the installation files should be ignored and not pushed to the remote repository.
+
+This is why we mark some files with the `--assume-unchanged` flag.
+
+However, if you intend to update the installer remote repository you should either not execute step 3 or remove the `--assume-unchanged` flag from the files. The folowing commands should be helpfull:
+
+List files marked as `--assume-unchanged`:
 
     git ls-files -v | grep "^h"
 
-Removes the --assume-unchanged flag from all files
+Removes the `--assume-unchanged` flag from all files
 
     git ls-files -v | grep "^h" | cut -c 3- | while read -r line ; do
         git update-index --no-assume-unchanged $line
     done
-
-
-If you actually need perform changes on the installer itself, make sure you either not mark the files as assume-unchanged or remove the assume-unchanged flag.
-The following command
 
 ### Workflow
 
