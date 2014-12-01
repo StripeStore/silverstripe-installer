@@ -2,7 +2,7 @@
 
 ## Development
 
-### Instalation
+### Installation
 
 The StripeStore Product is composed by:
  * a base (SilverStripe installer) git repository
@@ -29,7 +29,7 @@ Changes made by the installation process to the installation files should be ign
 
 This is why we mark some files with the `--assume-unchanged` flag.
 
-However, if you intend to update the installer remote repository you should either not execute step 3 or remove the `--assume-unchanged` flag from the files. The folowing commands should be helpfull:
+However, if you intend to update the installer remote repository you should either not execute step 3 or remove the `--assume-unchanged` flag from the files before following the normal workflow. The folowing commands should be helpfull:
 
 List files marked as `--assume-unchanged`:
 
