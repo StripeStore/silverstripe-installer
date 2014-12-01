@@ -20,7 +20,7 @@ To build your development enviroment you will need to:
     git submodule sync
  
  3. Inform git to not track changes on installation specific files with:
-    
+
     git update-index --assume-unchanged .htaccess assets/.htaccess assets/Uploads/SilverStripeLogo.png assets/web.config install.php mysite/_config.php
 
 Note:
