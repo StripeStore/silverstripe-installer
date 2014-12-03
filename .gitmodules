@@ -19,3 +19,6 @@
 [submodule "silverstripe-gallery"]
 	path = silverstripe-gallery
 	url = https://github.com/StripeStore/silverstripe-gallery.git
+[submodule "silverstripe-swipestripe-gallery"]
+	path = silverstripe-swipestripe-gallery
+	url = https://github.com/StripeStore/silverstripe-swipestripe-gallery.git
