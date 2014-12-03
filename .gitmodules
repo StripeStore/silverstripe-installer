@@ -16,3 +16,6 @@
 [submodule "themes/stripestore-demo-theme"]
 	path = themes/stripestore-demo-theme
 	url = https://github.com/StripeStore/stripestore-demo-theme.git
+[submodule "silverstripe-gallery"]
+	path = silverstripe-gallery
+	url = https://github.com/StripeStore/silverstripe-gallery.git

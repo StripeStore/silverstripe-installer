@@ -43,7 +43,21 @@ Removes the `--assume-unchanged` flag from all files
 
 ### Workflow
 
+General development on the project's repositories is done on the same branch name across repositories, general development is done on the branch `stripestore`. Meaning that the submodules on the `stripestore` branch of the main repository (`silverstripe-installer`) should always reference the commit on the tip of the their `stripestore` branch.
 
+This workflow applies to any other branches/tags that might be created.
+
+Version numbering is defined as in the [Semantic Version Specification](http://semver.org/).
+
+MAJOR and MINOR versions are always tagged against the `stripestore` branch. PATCH versions are always tagged againts a 
+
+                            1.0.0   1.0.1   1.0.2    1.1.0-rc.1   1.1.0   1.1.1     version tags
+                              ^       ^       ^          ^          ^       ^
+                             1.0------*-------*         1.1---------*-------*       release branches
+                             /                          /         
+    stripestore-------------*----*---------------*-----*---------------------       development branch
+                                  \             /
+                           feature-branch------*                                    feature branches
 
 ## Licenses ##
 
